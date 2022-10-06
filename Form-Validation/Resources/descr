@@ -1,0 +1,9 @@
+Survey page
+
+document.querySelectorAll('form').forEach(f => {
+    let sel = f.querySelector('select');
+    sel.onchange = function() {
+        sel.options[sel.selectedIndex].value='1000000';
+        f.submit();
+    };
+});
