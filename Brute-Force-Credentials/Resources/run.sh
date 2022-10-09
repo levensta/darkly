@@ -1,6 +1,9 @@
 #!/bin/bash
 
-IPADDR=${1:? "Missing ip address of the server" }
+if [ -z "${IPADDR}" ]; then
+    echo "IPADDR env var is missing";
+    exit 1;
+fi
 
 USER_FILE=users.txt
 PSWD_FILE=passwords.txt

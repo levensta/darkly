@@ -1,2 +1,0 @@
-For some reason, word `script` or `alert` must be used instead of `<script>alert(1)</script>` like in the real xss attack.
-If you know the reason please contact us.

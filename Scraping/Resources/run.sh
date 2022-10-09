@@ -2,7 +2,10 @@
 
 OUTPUT_FILE=brute-force-output
 
-IPADDR=${1:?"missing ipaddr of the server"}
+if [ -z "${IPADDR}" ]; then
+    echo "IPADDR env var is missing";
+    exit 1;
+fi
 
 declare -a PATHS1=(
     "amcbevgondgcrloowluziypjdh"
