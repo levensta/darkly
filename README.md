@@ -3,7 +3,7 @@
 This project is an introduction to the web security. The goal is to find 14 vulnerabilities in the web-app.
 
 ## env
- To use the scripts set IPADDR env variable to the current ip address of the app.
+ To use the scripts set IPADDR env variable to the current ip address of the app. <br>
  For example, `export IPADDR=192.168.64.4`
 
 ## Vulnerability/Attack/Exploit:
