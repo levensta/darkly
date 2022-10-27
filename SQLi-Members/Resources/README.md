@@ -22,3 +22,4 @@ List id, countersign and comment from users table:
 - [SQL Injection Attack — OWASP](https://owasp.org/www-community/attacks/SQL_Injection)
 - [SQLi Prevention Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
 - [SQLi payload examples — PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection)
+- [Advanced SQLi](https://www.bases-hacking.org/injections-sql-avancees.html)
